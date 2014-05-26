@@ -1,0 +1,113 @@
+#container {
+	background-color: #FFF;
+	font-family: "open sans", "sans serif", "arial";
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-size: 0.75em;
+
+	padding-left: 10px; padding-right: 10px;
+}
+
+#nav-panel {
+	height: 70px;
+	width: 100%;
+
+	padding-left: 30px; padding-right: 30px;
+	position: relative; text-align: right;
+	float: right; vertical-align: text-top;
+}
+
+#top a, #top img { 
+	line-height: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main {
+	width: 100%;
+	height: 350px;
+
+	display: block;
+	margin-top: 70px;
+}
+
+.google-logo, fieldset, input, .buttons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.google-logo {
+	margin-top: 160px;
+	height: 95px;
+	width: 269px;
+}
+
+fieldset {
+	border: 1px solid #E0E0D1;
+	height: 10px;
+}
+
+fieldset:hover {
+	border: 1px solid #C2C2A3;
+}
+
+input {
+	border: 0px solid transparent;
+	width: 100%;
+	height: 15px;
+	outline: none;
+
+	font-size: 1em;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons button {
+	font-family: Arial, sans-serif;
+	padding: 5px;
+	margin: 5px;
+	margin-top: 10px;
+
+	border: 1px solid #DCDCD6;
+	background-clip: padding-box;
+	background-color: #F4F4EE;
+}
+
+.buttons button:hover {
+	border-color: #c6c6c6;
+	color: #222;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+#footer {
+	display: block;
+	font-size: small;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.bottom-left, .bottom-right {
+	font-family: Arial, sans-serif;
+	height: 35px;
+	padding-left: 5px; padding-right: 15px;
+}
+
+.bottom-left {
+	float: left;
+}
+
+.bottom-right {
+	float: right;
+}
